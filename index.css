@@ -85,7 +85,7 @@
 }
 
 .menu_details a:hover {
-    color: blue;
+  color: blue;
 }
 
 @media screen and (min-width: 768px) {
