@@ -35,9 +35,20 @@
 
 .menuclick {
   display: none;
-  height: 780px;
   background-color: orange;
   overflow: scroll;
+  position: fixed;
+  z-index: 100;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(96, 112, 255);
+  background-color: rgb(96, 112, 255, 0.95);
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(15px);
 }
 
 .menu_details {
@@ -603,22 +614,6 @@ li.reserved {
   display: none;
 }
 
-.menuclick {
-  display: none;
-  position: fixed;
-  z-index: 100;
-  padding-top: 50px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(96, 112, 255);
-  background-color: rgb(96, 112, 255, 0.95);
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(15px);
-}
-
 .btn-wrapper {
   position: fixed;
   top: 10px;
@@ -779,11 +774,12 @@ a.linkB {
   }
 
   .navbar1 a {
+    margin-top: 100px;
     justify-content: space-between;
     text-decoration: none;
     font-weight: 200;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 28px;
+    line-height: 32px;
     font-style: normal;
     color: #fff;
     cursor: pointer;
@@ -798,7 +794,7 @@ a.linkB {
 
   .top-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #272a31;
     padding-left: 540px;
     padding-right: 30px;
@@ -811,7 +807,6 @@ a.linkB {
     font-style: normal;
     cursor: pointer;
     font-size: 0.8rem;
-    line-height: 1.6rem;
     color: #d3d3d3;
   }
 
@@ -863,11 +858,6 @@ a.linkB {
   }
 
   .main_title {
-    padding-top: 20px;
-    font-size: 40px;
-    font-weight: 800;
-    color: orangered;
-    height: 100px;
     padding-top: 20px;
     font-size: 40px;
     font-weight: 800;
@@ -984,6 +974,7 @@ a.linkB {
   .containerA {
     width: auto;
   }
+
   .about {
     width: 100%;
   }

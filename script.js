@@ -86,4 +86,3 @@ showMoreLecturers.addEventListener('click', () => {
   }
   showMoreLecturers.style.display = 'none';
 });
-
