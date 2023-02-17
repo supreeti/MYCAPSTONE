@@ -1,6 +1,5 @@
 # MYCAPSTONE
-My first conferece website
-My second microverse project with my portfolio mobile view.
+My first conference website with  mobile and desktop  view.
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -19,9 +18,9 @@ My second microverse project with my portfolio mobile view.
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [PortfolioMobileFirst] <a name="about-project"></a>
+# 📖 [MYCAPSTONE] <a name="about-project"></a>
 
-**[PortfolioMobileFirst]** is a simple mobile view of my portfolio using HTML and CSS flex...
+**[MYCAPSTONE]** is a simple conference wedsite showing details for the upcoming conference in responsivemanner having mobile view and desktop view of my capstone using HTML and CSS flex and javascript...
 
 
 
@@ -38,7 +37,7 @@ My second microverse project with my portfolio mobile view.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://supreeti.github.io/PortfolioMobileFirst/)
+- [Live Demo Link](https://supreeti.github.io/MYCAPSTONE/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +86,8 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[My portfolio Contact form Validation]**
+- [ 1] **[Registration page]**
+- [ 2] **[Login page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
