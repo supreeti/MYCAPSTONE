@@ -20,7 +20,7 @@ My first conference website with  mobile and desktop  view.
 
 # 📖 [MYCAPSTONE] <a name="about-project"></a>
 
-**[MYCAPSTONE]** is a simple conference wedsite showing details for the upcoming conference in responsivemanner having mobile view and desktop view of my capstone using HTML and CSS flex and javascript...
+**[MYCAPSTONE]** is a simple conference website showing details for the upcoming conference in responsivemanner having mobile view and desktop view of my capstone using HTML and CSS flex and javascript...
 
 
 
