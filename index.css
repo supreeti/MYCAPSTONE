@@ -44,9 +44,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
   background-color: rgb(96, 112, 255);
-  background-color: rgb(96, 112, 255, 0.95);
   mix-blend-mode: multiply;
   backdrop-filter: blur(15px);
 }
