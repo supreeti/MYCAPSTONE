@@ -33,7 +33,7 @@ Used different menubars for mobile and desktop view .
 
 ## 🚀 Project Video <a name="live-video"></a>
 
-- [Project Video Link](https://www.loom.com/share/119a6f1d891f4c32bbd5a5ef902d1e36)
+- [Project Video Link](https://www.loom.com/share/ba7540a2658a46418df8fcee8c51f739)
 Here you can see me explaining about my project.
 <!-- LIVE DEMO -->
 
