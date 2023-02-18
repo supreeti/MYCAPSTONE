@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
 }
 
-.menubar {
-  width: 100%;
-  height: 12%;
-  background-color: orange;
-  position: fixed;
+.navbarimg {
+  margin-left: 20px;
+  margin-top: 15px;
+  z-index: 100;
+  position: absolute;
 }
 
 .top-nav {
@@ -19,7 +19,7 @@
 .navbar img {
   padding-left: 20px;
   padding-top: 10px;
-  height: 10%;
+  height: 5%;
   position: fixed;
 }
 
@@ -35,7 +35,7 @@
 
 .menuclick {
   display: none;
-  background-color: orange;
+  background-color: var(--COLOR1);
   overflow: scroll;
   position: fixed;
   z-index: 100;
@@ -95,12 +95,13 @@
 
 .main_pg {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   background-color: whitesmoke;
   background-image: url("images/home-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 50px 20px 50px 20px;
+  padding: 5.7rem 18px 2.2rem;
 }
 
 .main-about {
@@ -112,19 +113,16 @@
   background-image: url("images/about-bg.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: 2.5rem;
-  padding: 4rem 1.5rem 1.5rem;
+  background-position-y: 40px;
+  padding: 64px 24px 1.24px;
 }
 
 .main_box {
-  margin-left: 10px;
-  margin-bottom: 150px;
+  margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 .main_heading {
-  padding-top: 100px;
-  font-size: 32px;
-  font-weight: 600;
   color: var(--COLOR2);
   margin-bottom: 5px;
 }
@@ -140,11 +138,10 @@
 }
 
 .main_title {
-  padding-top: 20px;
-  font-size: 40px;
-  font-weight: 800;
-  color: orangered;
-  height: 100px;
+  font-family: var(--FF);
+  color: transparent;
+  background-image: url("images/header\ background.jpeg");
+  -webkit-background-clip: text;
 }
 
 .main_titleA {
@@ -159,8 +156,8 @@
 }
 
 .main_description {
-  font-size: 28px;
-  font-weight: 300;
+  margin: 70px 20px 20px 20px;
+  padding: 15px;
   border: 1px solid white;
   background-color: rgba(202, 199, 199, 0.1);
 }
@@ -175,23 +172,21 @@
 }
 
 .des1 {
-  font-weight: 900;
   font-family: var(--FF);
-  color: black;
 }
 
 .des2 {
   margin-left: 20px;
   margin-bottom: 9px;
-  color: #272a31;
+  color: #5b5b5b;
   font-weight: 800;
   line-height: 2.2rem;
 }
 
 .des3 {
   margin-left: 20px;
-  font-weight: 800;
-  color: #272a31;
+  font-weight: 500;
+  color: #5b5b5b;
 }
 
 .courses {
@@ -200,10 +195,10 @@
   background-color: var(--COLOR1);
   background-image: url("images/diamond.png");
   align-items: center;
-  background-size: 1.6rem;
-  padding: 2rem 0.8rem;
+  background-size: 22px;
+  padding: 32px 12px;
   width: 100%;
-  gap: 1rem;
+  gap: 16px;
 }
 
 ul {
@@ -510,17 +505,17 @@ hr {
   transition: all 0.3s ease;
   padding: 4.5rem 0;
   cursor: pointer;
-  gap: 0.3rem;
+  gap: 5px;
   align-items: center;
 }
 
 .photo-gallery h3 {
-  font-size: 2rem;
+  font-size: 32px;
   color: #fff;
 }
 
 .photo-gallery p {
-  font-size: 1rem;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -595,12 +590,6 @@ li.reserved {
 .page,
 .page_out {
   color: white;
-}
-
-.nav-logo {
-  width: 150px;
-  height: auto;
-  margin-left: 30px;
 }
 
 .header_wrapper {
@@ -766,27 +755,26 @@ a.linkB {
   }
 
   .navbar1 {
-    justify-content: space-around;
     display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .navbar1 ul {
+    display: inline-block;
+    column-gap: 40px;
+    justify-content: space-between;
+    margin-top: 30px;
   }
 
   .navbar1 a {
-    margin-top: 100px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: right;
     text-decoration: none;
-    font-weight: 200;
-    font-size: 28px;
-    line-height: 32px;
-    font-style: normal;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  .menubar {
-    width: 100%;
-    height: 12%;
-    background-color: orange;
-    position: fixed;
+    color: var(--COLOR1);
+    padding: 15px 15px;
+margin-top: 30px;
   }
 
   .top-nav {
@@ -799,11 +787,9 @@ a.linkB {
 
   .top-nav a {
     text-decoration: none;
-    font-weight: 100;
-    line-height: 24px;
-    font-style: normal;
-    cursor: pointer;
     font-size: 0.8rem;
+    text-decoration: none;
+    line-height: 1.6rem;
     color: #d3d3d3;
   }
 
@@ -816,6 +802,12 @@ a.linkB {
     justify-content: left;
     height: 50px;
     border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  .nav_wrapper_desk {
+    margin-left: 365px;
+    justify-content: right;
   }
 
   .header_items {
@@ -855,11 +847,8 @@ a.linkB {
   }
 
   .main_title {
-    padding-top: 20px;
-    font-size: 40px;
-    font-weight: 800;
-    color: orangered;
-    height: 100px;
+    font-size: 5em;
+font-weight: 900;
   }
 
   .main_titleA {
@@ -868,19 +857,18 @@ a.linkB {
 
   .main_description {
     padding-left: 20px;
-    width: 70%;
-    background-color: rgb(242, 242, 242);
+width: 70%;
+background-color: rgb(242, 242, 242);
   }
 
   .main_descriptionA {
     background-color: white;
-    border: 1px solid #d3d3d3;
+border: 1px solid #d3d3d3;
   }
 
   .des2 {
     font-size: 1.9rem;
   }
-
   .des3 {
     font-size: 1.3rem;
   }
@@ -1069,7 +1057,7 @@ a.linkB {
   }
 
   .fa-brands {
-    color: skyblue;
+    color: var(--COLOR3);
   }
 
   .contact span {
@@ -1137,7 +1125,7 @@ a.linkB {
 }
 
 @media (max-width: 1024px) {
-  .nav_wrapper_desk {
+  .navbar1 {
     margin: auto;
   }
 }

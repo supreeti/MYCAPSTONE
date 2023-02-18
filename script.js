@@ -1,4 +1,4 @@
-const bar = document.querySelector('.menubar');
+const bar = document.querySelector('.navbarimg');
 const openbar = document.querySelector('.menuclick');
 const closebar = document.querySelector('.exit');
 
@@ -43,7 +43,7 @@ const lecturersInfo = [
     image: 'images/lecturer5.png',
     name: 'Dr. Anastacia Clothworthy',
     title: 'Head of Edulearn',
-    info: ' and connect people from aro.',
+    info: ' A tech savvy with in-depth knowledge of modern technologies.',
   },
   {
     image: 'images/lecturer2.png',
