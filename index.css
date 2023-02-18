@@ -777,11 +777,16 @@ a.linkB {
   }
 
   .top-nav {
+    display: block;
+  }
+
+  .top-nav ul {
     display: flex;
-    justify-content: space-around;
-    background-color: #272a31;
-    padding-left: 540px;
-    padding-right: 30px;
+    justify-content: right;
+    align-items: center;
+    background-color: #3e3e3e;
+    padding: 0 11%;
+    gap: 0.7rem;
   }
 
   .top-nav a {
@@ -789,6 +794,18 @@ a.linkB {
     font-size: 0.8rem;
     line-height: 1.6rem;
     color: #d3d3d3;
+  }
+
+  a.deskB {
+    color: var(--COLOR2);
+  }
+
+  .deskB {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #ec5242;
+    border: 4px solid #ec5242;
+    padding: 0.5rem;
   }
 
   .fa-brands,
